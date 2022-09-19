@@ -10,3 +10,7 @@ Primero se aplica un modelo de redes neuronales con maxpool, con activación rel
 El segundo modelo es similar pero con un optimizador RMSprop y loss SparseCategoricalCrossentropy. 
 
 El siguiente modelo aplica "Feature Extraction & Fine-Tuning" este modelo usa inceptionv3 creado por ingenieros de Google. Usa un optimizador Adam y loss SparseCategoricalCrossentropy. Primero se modela y entrena con solamente el Feature Extraction, y para mejorar, luego se aplica el Fine tuning.
+
+## Despliegue en GCP
+
+El otro codigo es una forma de desplegar el modelo en un bucket de Google Cloud.
