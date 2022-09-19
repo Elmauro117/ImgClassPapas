@@ -1,4 +1,4 @@
-# ImgClassPapas
+# Img Class de Papas
 Un Modelo de Deep Learning para clasificar tipos de enfermedades de las papas
 
 El código usa modelos de Deep Learning para poder clasificar enfermedades de las papas 
