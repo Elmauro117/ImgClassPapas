@@ -13,4 +13,5 @@ El siguiente modelo aplica "Feature Extraction & Fine-Tuning" este modelo usa in
 
 ## Despliegue en GCP
 
-El otro codigo es una forma de desplegar el modelo en un bucket de Google Cloud.
+El otro codigo es una forma de desplegar el modelo en un bucket de Google Cloud. 
+Mediante Postman puedes subir las imágenes de las hojas, para que el modelo te prediga que enfermedad tiene el tubérculo.
