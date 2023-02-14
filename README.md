@@ -1,6 +1,6 @@
 # Img Class de Papas
 
-####### ES
+### ES
 Un Modelo de Deep Learning para clasificar tipos de enfermedades de las papas
 
 El código usa modelos de Deep Learning para poder clasificar enfermedades de las papas 
@@ -13,7 +13,7 @@ El segundo modelo es similar pero con un optimizador RMSprop y loss SparseCatego
 
 El siguiente modelo aplica "Feature Extraction & Fine-Tuning" este modelo usa inceptionv3 creado por ingenieros de Google. Usa un optimizador Adam y loss SparseCategoricalCrossentropy. Primero se modela y entrena con solamente el Feature Extraction, y para mejorar, luego se aplica el Fine tuning.
 
-####### EN
+### EN
 A Deep Learning model to classify types of illnes on potatoes.
 
 The code uses a Deep learning model to calssify some illnes on a potatoe leaf
@@ -28,11 +28,11 @@ The last model applies "Feature Extraction & Fine-Tuning" this model uses incept
 
 ### Despliegue en GCP
 
-####### ES
+### ES
 El otro codigo es una forma de desplegar el modelo en un bucket de Google Cloud. 
 Mediante Postman puedes subir las imágenes de las hojas, para que el modelo te prediga que enfermedad tiene el tubérculo.
 
-####### EN
+### EN
 We deploy the model using GCP that's that tbh.
 
 
